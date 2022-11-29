@@ -1,41 +1,86 @@
-body {
-    color: black;
-    border-style: solid;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
-header {
-    border-style:solid;
-    border-color: red;
-    background-color: red;
-    height: 30%;
+body{
+    width:100%;
+    margin:auto;
 }
-nav {
-    border-style: solid;
-    border-color: yellow;
-    height: 50%;
-    width: 30%;
-    background-color: yellow;
-    float: left;
+header{
+    background-color:rgb(0, 0, 50);
+    width:85%;
+    height: 55px;
+    float:right;
+    color: rgb(255, 255, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 5px;
+    text-shadow: 0 0 0.2em rgb(0, 255, 255);
+    text-align: center;
+}
+nav{
+    background-image: url(
+        https://i.pinimg.com/736x/8e/ee/04/8eee04aeefee34699b413b5a55079b82.jpg
+    );
+    height:100%;
+    width:15%;
+    color: white;
+    position: fixed;
+    border: 2px outset rgb(0, 0, 0);
+}
+main{
+    background-color:rgb(255, 255, 255);
+    height: auto;
+    float:right;
+    width:85%;
+    color: #000;
+    padding: 5px;
+}
+footer{
+    background-color:rgb(0, 0, 50);
+    width:100%;  
+    height:20%;
+    float:left;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: end;
 }
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0px 0px 0px 1000px;
-    overflow: hidden;
+    width: auto;
+    height: auto;
 }
 li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: auto;
+    height: auto;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    float: left;
-  }
-
-  a:hover:not(.active) {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 0, 0);
+    border: 5px outset rgba(0, 255, 255, 0);
+    border-radius: 50px;
 }
-main {
+a.link:hover:not(.active) {
+    border: 5px solid rgb(0, 255, 255);
+    border-radius: 50px;
+    text-shadow: 0 0 0.5em rgb(0, 255, 255);
+    background-image: url(https://us.123rf.com/450wm/koo1980/koo19801608/koo1980160800035/60612857-fondo-de-la-fibra-de-carbono-negro-y-textura-para-el-dise%C3%B1o-de-materiales-ilustraci%C3%B3n-3d-.jpg?ver=6);
+}
+img.DT {
+    height: 310px;
+    width: 200px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+}
+a.FU:hover:not(.active) {
+    color: rgb(0, 255, 255);
+}
+p.link{
+    font-weight: bold;
+}
     border-style: solid;
     height: 50%;
     width: 69%;
